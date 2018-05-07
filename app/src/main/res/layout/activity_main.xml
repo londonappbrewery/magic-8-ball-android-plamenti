@@ -17,6 +17,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="182dp"
-        android:text="Ask" />
+        android:layout_marginBottom="150dp"
+        android:text="Ask"
+        android:textColor="#ffffff"
+        android:background="#3f51b5"/>
 </RelativeLayout>
