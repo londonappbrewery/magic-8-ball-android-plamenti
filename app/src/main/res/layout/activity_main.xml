@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_main"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -18,10 +18,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="150dp"
+        android:layout_marginBottom="97dp"
+        android:background="#3f51b5"
         android:text="@string/askButtonText"
-        android:textColor="#ffffff"
-        android:background="#3f51b5"/>
+        android:textColor="#ffffff" />
 
     <TextView
         android:id="@+id/textView"
@@ -34,4 +34,13 @@
         android:textSize="20sp"
         android:textColor="#000000"
         android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/image_eightBall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="134dp"
+        app:srcCompat="@drawable/ball1" />
 </RelativeLayout>
