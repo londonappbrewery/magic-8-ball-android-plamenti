@@ -32,8 +32,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 int number = randomNumberGeneartor.nextInt(5);
                 ballDisplay.setImageResource(ballArray[number]);
-                Log.d("EightBall", "Ask button is clicked");
-                Log.d("Random", "Random number: " + number);
             }
         });
     }
