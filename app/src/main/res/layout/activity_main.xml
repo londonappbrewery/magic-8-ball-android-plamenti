@@ -9,6 +9,7 @@
     android:paddingRight="16dp"
     android:paddingTop="16dp"
     android:paddingBottom="16dp"
+    android:background="#26ade0"
     tools:context=".MainActivity">
 
     <Button
@@ -21,4 +22,16 @@
         android:text="Ask"
         android:textColor="#ffffff"
         android:background="#3f51b5"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Make everyday decisions easier!"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
 </RelativeLayout>
